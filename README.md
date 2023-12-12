@@ -1,4 +1,4 @@
-# Face Recognition Project
+# Face Detection system
 
 Welcome to our Face Recognition project! This initiative enables you to identify faces in images using the Face-API.js library. This application, developed with HTML, CSS, and JavaScript, offers a user-friendly interface for detecting faces in uploaded images.
 
@@ -40,13 +40,3 @@ To make the most of the Face Recognition project, adhere to these steps:
    Access the application at `http://127.0.0.1:8080/index.html` in your web browser.
 
 6. **Face Detection:** Once the application is open, upload an image from your local machine using the "Choose File" button. After selecting the image, click on "Detect Faces." The Face-API.js library will analyze the image and outline detected faces with bounding boxes.
-
-7. **Additional Features:** Customize the application based on your project's needs by incorporating more features from the Face-API.js library, such as facial landmark detection, age and gender prediction, emotion detection, etc. Explore the library documentation for insights.
-
-## Contribution Guidelines
-
-If you wish to contribute to this project, open an issue or submit a pull request on our GitHub repository. We value your feedback and contributions!
-
----
-
-Thank you for using our Face Recognition project! For questions or assistance, feel free to reach out through our GitHub repository or email. Enjoy exploring the world of face recognition!
