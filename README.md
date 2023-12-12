@@ -1,55 +1,52 @@
+# Face Recognition Project
 
-# Face Detector Project
+Welcome to our Face Recognition project! This initiative enables you to identify faces in images using the Face-API.js library. This application, developed with HTML, CSS, and JavaScript, offers a user-friendly interface for detecting faces in uploaded images.
 
-Welcome to the Face Detector project! This project allows you to detect faces in images using the Face-API.js library. The application is built using HTML, CSS, and JavaScript, and it provides an easy-to-use interface to detect faces in the uploaded images.
+This project is a part of the Code Clause Internship Program.
 
-This project is a part of Code Clause Internship
+**Important:** Please wait momentarily as all the models load. Once loaded, grant your browser access to your camera, and the website will promptly begin detecting your face along with your facial expressions.
 
-**Note:** Please wait a while after all the models get loaded, then allow the browser to access your camera just in a while the website will start to detect your face as well as your facial expressions...
+## How to Utilize
 
-## How to Use
+To make the most of the Face Recognition project, adhere to these steps:
 
-To use the Face Detector project, follow these steps:
-
-1. **Clone the Repository:** First, clone this repository to your local machine using the following command:
+1. **Clone the Repository:** Begin by cloning this repository to your local machine. Execute the following command in your terminal:
 
    ```bash
-   git clone https://github.com/your-username/face-detector.git
+   git clone https://github.com/your-username/face-recognition.git
    ```
 
-2. **Obtain Face-API.js Library:** The Face Detector project uses the Face-API.js library to detect faces in images. You can find the documentation and download the library from the following link: [Face-API.js Documentation](https://github.com/justadudewhohacks/face-api.js)
+2. **Acquire Face-API.js Library:** This project relies on the Face-API.js library for face detection. Refer to the [Face-API.js Documentation](https://github.com/justadudewhohacks/face-api.js) for library details and download it.
 
-3. **Include Face-API.js Library:** After downloading the Face-API.js library, place the `face-api.min.js` file in the project's `js` folder. In the `index.html` file, make sure to include the library script before the `script.js` file as shown below:
+3. **Integrate Face-API.js Library:** After downloading the Face-API.js library, place the `face-api.min.js` file in the project's `js` folder. In the `index.html` file, ensure the library script is included before the `script.js` file:
 
    ```html
    <script src="js/face-api.min.js"></script>
    <script src="js/script.js"></script>
    ```
 
-4. **Start a Live Server:** To interact with the application, you need to run the project using a live server. If you have Node.js installed, you can use the popular `live-server` package. If you don't have it, you can install it globally using:
+4. **Initiate a Live Server:** To interact with the application, run the project using a live server. If you don't have Node.js installed, use the following command to install the `live-server` package globally:
 
    ```bash
    npm install -g live-server
    ```
 
-5. **Launch the Application:** After installing `live-server`, navigate to the project directory in your terminal and run the following command:
+5. **Launch the Application:** Navigate to the project directory in your terminal and execute the following command:
 
    ```bash
    live-server
    ```
 
-   The application should now be accessible at `http://127.0.0.1:8080/index.html`. Open this link in your web browser.
+   Access the application at `http://127.0.0.1:8080/index.html` in your web browser.
 
-6. **Detecting Faces:** Once the application is open in your web browser, you can upload an image from your local machine using the "Choose File" button. After selecting the image, click on the "Detect Faces" button. The application will use the Face-API.js library to analyze the image and draw bounding boxes around detected faces.
+6. **Face Detection:** Once the application is open, upload an image from your local machine using the "Choose File" button. After selecting the image, click on "Detect Faces." The Face-API.js library will analyze the image and outline detected faces with bounding boxes.
 
-7. **Additional Features:** Depending on your project's requirements, you can further enhance the application by adding more features using the capabilities of the Face-API.js library, such as facial landmark detection, age and gender prediction, emotion detection, and more. Refer to the library documentation for details.
+7. **Additional Features:** Customize the application based on your project's needs by incorporating more features from the Face-API.js library, such as facial landmark detection, age and gender prediction, emotion detection, etc. Explore the library documentation for insights.
 
-## Contributing
+## Contribution Guidelines
 
-If you'd like to contribute to this project, feel free to open an issue or submit a pull request on the GitHub repository. Your feedback and contributions are highly appreciated!
+If you wish to contribute to this project, open an issue or submit a pull request on our GitHub repository. We value your feedback and contributions!
 
 ---
 
-Thank you for using the Face Detector project! If you have any questions or need assistance, feel free to reach out to us through our GitHub repository or email. Happy face detecting!
-
-Created by Swikrit Shukla - All rights reserved.
+Thank you for using our Face Recognition project! For questions or assistance, feel free to reach out through our GitHub repository or email. Enjoy exploring the world of face recognition!
