@@ -1,4 +1,4 @@
-# Face Detection system
+# Face Recognition system
 
 Welcome to our Face Recognition project! This initiative enables you to identify faces in images using the Face-API.js library. This application, developed with HTML, CSS, and JavaScript, offers a user-friendly interface for detecting faces in uploaded images.
 
@@ -13,7 +13,7 @@ To make the most of the Face Recognition project, adhere to these steps:
 1. **Clone the Repository:** Begin by cloning this repository to your local machine. Execute the following command in your terminal:
 
    ```bash
-   git clone https://github.com/your-username/face-recognition.git
+   git clone https://github.com/amazingsufiyancode/CodeClause_FaceDetection.git
    ```
 
 2. **Acquire Face-API.js Library:** This project relies on the Face-API.js library for face detection. Refer to the [Face-API.js Documentation](https://github.com/justadudewhohacks/face-api.js) for library details and download it.
